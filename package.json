@@ -1,9 +1,10 @@
 {
   "name": "directory-react-nodejs",
   "description": "React Node.js sample app",
+  "postinstall": "npm run build",
   "version": "0.0.1",
   "dependencies": {
     "express": "^4.10.6"
-  "postinstall": "npm run build",
+  
   }
 }
